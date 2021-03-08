@@ -641,7 +641,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
 use ApiPlatform\Core\Bridge\Elasticsearch\DataProvider\Filter\MatchFilter;
 
 #[ApiResource]
-#[ApiFilter(MatchFilter::class, properties: ['message']]
+#[ApiFilter(MatchFilter::class, properties: ['message'])]
 class Tweet
 {
     // ...
